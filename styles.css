@@ -1,3 +1,63 @@
 *{
-	font-family: 'Titillium Web', 'Open Sans';
+	font-family: 'Titillium Web', monospace;
+}
+
+body{
+	margin: 0;
+	background-color: lightpink;
+}
+
+#aboutSection{
+	height: 500px;
+	background-color: lightpink;
+}
+
+#projectSection{
+	height: 600px;
+	background-color: LightYellow;
+}
+
+#navBar{
+	margin: 20px auto 0 auto;
+	background-color: white;
+	height: 50px;
+	width: 1000px;
+  	box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+#navBar p{
+	display: inline-block;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	
+}
+
+#links{
+	color: #a8a8a8;
+	float: right;
+	margin: auto;
+	padding: 11.5px 20px 11.5px 0;
+}
+
+#logo{
+	color: #5b5b5b;
+	margin: auto;
+	padding: 11.5px 0 11.5px 20px;
+}
+
+#profilePhoto{
+	background-color: white;
+	height: 150px;
+	width: 150px;
+	margin: 80px auto 50px auto;
+  	box-shadow: 0px 11px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+#aboutSection h1{
+	text-align: center;
+	color: white;
+}
+
+#projectSection h2{
+	margin: 0;
 }
