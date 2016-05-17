@@ -38,6 +38,7 @@ body{
 }
 
 #navBar p{
+	font-family: 'Titillium Web', 'Open Sans';
 	display: inline-block;
 	font-size: 1.1em;
 	text-transform: uppercase;
@@ -71,13 +72,20 @@ body{
 }
 
 #projectSection h2{
-	font-weight: 700;
-	font-size: 1em;
-	margin: 30px 0;
+	text-align: center;
+	font-weight: 600;
+	font-size: 1.1em;
+	color: grey;
+	margin: 50px 0;
 }
 
 #contactSection p{
 	text-align: center;
+}
+
+#slidesWrapper{
+	width: 800px;
+	margin: auto;
 }
 
 #slidesWrapper > div{
